@@ -1,0 +1,69 @@
+{
+  "title": "Test form",
+  "description": "A simple form example.",
+  "type": "object",
+  "required": [
+    "firstName",
+    "lastName"
+  ],
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "title": "First name",
+      "default": "Perterstein",
+      "minLength": 8
+    },
+    "lastName": {
+      "type": "string",
+      "title": "Last name",
+      "default": "Haroldein",
+      "minLength": 8
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "uri": {
+      "type": "string",
+      "format": "uri",
+      "title": "GitHub"
+    },
+    "email-id": {
+      "type": "string",
+      "format": "email"
+    },
+    "password": {
+      "type": "string",
+      "title": "Password"
+    },
+    "optionsEnumRadio": {
+      "type": "string",
+      "title": "Gender",
+      "enum": [
+        "Male",
+        "Female",
+        "I prefer not to say"
+      ]
+    },
+    "telephone": {
+      "type": "string",
+      "title": "Telephone",
+      "minLength": 10,
+      "pattern": "\\d+"
+    },
+
+
+    "Certifications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "A brief intro": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+   
+  }
+}
