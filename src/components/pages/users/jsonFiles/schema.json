@@ -19,51 +19,28 @@
       "default": "Haroldein",
       "minLength": 8
     },
-    "Age": {
-      "type": "integer"
-    },
-    "uri": {
-      "type": "string",
-      "format": "uri",
-      "title": "GitHub"
-    },
-    "email-id": {
+    "email": {
       "type": "string",
       "format": "email"
     },
-    "password": {
-      "type": "string",
-      "title": "Password"
+    "status": {
+      "type": "boolean"
     },
-    "optionsEnumRadio": {
-      "type": "string",
-      "title": "Gender",
-      "enum": [
-        "Male",
-        "Female",
-        "I prefer not to say"
-      ]
-    },
-    "telephone": {
-      "type": "string",
-      "title": "Telephone",
-      "minLength": 10,
-      "pattern": "\\d+"
-    },
-
-
-    "Certifications": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "A brief intro": {
-      "type": "array",
-      "items": {
-        "type": "string"
+    "birthday": {
+      "type": "object",
+      "title": "Birthday",
+      "properties": {
+        "datetime": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "skills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
       }
     }
-   
   }
 }

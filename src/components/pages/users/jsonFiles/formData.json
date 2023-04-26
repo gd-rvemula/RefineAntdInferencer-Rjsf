@@ -1,29 +1,12 @@
 {
-  "firstName": "Mini",
-  "lastName": "Norris",
-  "age": 35,
-  "email-id": "forevernorris@gmail.com",
-  "bio": "Roundhouse kicking asses since 1540",
-  "password": "noned",
-  "native": {},
-  "alternative": {},
-  "integerRange": 42,
-  "integerRangeSteps": 80,
-  "disabled": "I am inactive.",
-  "readonly": "I am read-only.",
-  "multipleChoicesList2": [
-    "foo",
-    "bar",
-    "fuzz"
-  ],
-  "customArray": [
-    "react",
-    "jsonschema",
-    "form"
+  "firstName": "Local",
+  "lastName": "User",
+  "email": "loclausr@gmail.com",
+  "status":"true",
+  "birthday": "2023-05-20T06:29:30.386Z",
+  "skills": [
+    "local1",
+    "local2",
+    "local3"
   ]
 }
-
-
-
-
-
